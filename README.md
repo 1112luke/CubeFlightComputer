@@ -12,8 +12,9 @@ This repository is open at all times to any member submitting a Pull Request and
 
 ### Requirements
 Before you do anything, make sure you:
- - have [git](https://git-scm.com/downloads) installed on your computer (macos should by default).
- - are added as a repository contributor (ask a team lead)
+ - Have [git](https://git-scm.com/downloads) installed on your computer (macos should by default).
+ - Have [kicad](https://www.kicad.org/) installed on your computer
+ - Are added as a repository contributor (ask a team lead)
 
 To make a contribution, the generall process is:
 
