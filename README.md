@@ -31,7 +31,7 @@ git clone https://github.com/1112luke/CubeFlightComputer
 If you have the repository already and wish to begin a new contribution <b><u>it is important that you get the most recent version of the repository: </u></b>
 
 ```
-git switch master
+git switch main
 git pull origin main --rebase
 ```
 
