@@ -1,3 +1,4 @@
 *.md
 *.lck
 CubeFlightComputer-backups
+.DS_Store
