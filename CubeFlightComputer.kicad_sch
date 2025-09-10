@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "309c4956-07f9-47d3-bb6f-d1c2b2530971")
 	(paper "A4")
+	(title_block
+		(title "Cubesat Computer")
+	)
 	(lib_symbols)
 	(wire
 		(pts
@@ -47,7 +50,7 @@
 		)
 		(uuid 21f63a6d-e4c2-4b50-ae6c-116576971a91)
 	)
-	(text "This is the parent sheet for the Irishsat Cubestat \nflight Computer. Here, Heirarchical blocks will be \nmade for each individual IC or large subsystem.\nBy breaking it down in this way, collaboration is simple.\nTo contribute, follow the guide in the contributing section\nof our github:\nhttps://github.com/1112luke/CubeFlightComputer.\n(github repo location subject to change)\n\nOnce we build out this sheet with the relevant peripherals,\ncontributing is as easy as taking a crack at implementing \nany one of them"
+	(text "This is the parent sheet for the Irishsat Cubestat \nflight Computer. Here, heirarchical blocks will be \nmade for each individual IC or large subsystem.\nBy breaking it down in this way, collaboration is simple.\nTo contribute, follow the guide in the contributing section\nof our github:\nhttps://github.com/1112luke/CubeFlightComputer.\n(github repo location subject to change)\n\nOnce we build out this sheet with the relevant peripherals,\ncontributing is as easy as taking a crack at implementing \nany one of them"
 		(exclude_from_sim no)
 		(at 101.854 70.358 0)
 		(effects
