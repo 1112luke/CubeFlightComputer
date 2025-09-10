@@ -12,4 +12,4 @@ This repository is open at all times to any member submitting a Pull Request and
 
 To make a contribution, the generall process is:
 
-<i>clone/pull → branch → make your changes → add;commit;push → request approval for merge</i>
+<b><i>clone/pull → branch → make your changes → add;commit;push → request approval for merge</i></b>
