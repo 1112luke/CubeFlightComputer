@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1a36b812-3006-4acb-95e9-93db23056b50")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 37.592 50.292)
+		(end 125.222 68.072)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d0dfa2c-69d5-42aa-98bf-f9739e605142)
+	)
+	(text "Here, implement a gps module for precise orbit altitude esitmation & position data\n\nInclude all relevent power and communiction I/O as heirarchical headers"
+		(exclude_from_sim no)
+		(at 81.28 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25cfe582-ab8c-442c-bbb8-828a5ae9b83a")
+	)
+	(text "GPS"
+		(exclude_from_sim no)
+		(at 81.788 54.102 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "84b900bb-36a4-4460-9338-f2fa00b2bc09")
+	)
+	(hierarchical_label "Example_IO"
+		(shape input)
+		(at 142.24 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f91e239e-a293-4ee1-bacf-9a4b86cf8d55")
+	)
+)
