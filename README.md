@@ -24,18 +24,26 @@ Each step is broken down as follows:
 ### Clone/Pull 🤖
 If this is your first time interacting with this repository on your local machine, execute the following command in the location on your computer you wish to clone the repository to:
 
-  git clone https://github.com/1112luke/CubeFlightComputer
+```
+git clone https://github.com/1112luke/CubeFlightComputer
+```
 
 If you have the repository already and wish to begin a new contribution <b><u>it is important that you get the most recent version of the repository: </u></b>
 
- git pull origin main --rebase
+```
+git pull origin main --rebase
+```
 
 ### Branch 🪾
 Once you have an up to date copy of the repository on your local machine, you will need to create a new branch for your contribution:
 
- git branch -c "branch-name"
+```
+git branch -c "branch-name"
+```
 
- git switch "branch-name"
+```
+git switch "branch-name"
+```
 
 feel free to name it whatever you want. Be descriptive!
 
