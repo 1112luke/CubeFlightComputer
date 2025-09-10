@@ -53,8 +53,8 @@ At this point, you are free to make whatever changes you want! Any time you are 
  - Experiment
  - Break Things
  - Absolutely Cook 👨‍🍳
-<br></br>
-This is how we learn!!
+
+<b>THIS IS HOW WE LEARN!!</b>
 
 ### Add;Commit;Push 💡
 When you are satisfied with your contribution, execute the following steps to push your changes to github for review:
