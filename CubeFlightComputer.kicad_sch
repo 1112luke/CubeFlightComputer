@@ -1,5 +1,171 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "309c4956-07f9-47d3-bb6f-d1c2b2530971")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 198.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060754c5-2b9d-4b47-9940-12eec13cd9ee")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5553f597-51e7-46ac-a0df-fda3e510e0fe")
+	)
+	(wire
+		(pts
+			(xy 151.13 99.06) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e67a11-9357-4bec-a433-0959dcd3fa3e")
+	)
+	(rectangle
+		(start 71.12 52.832)
+		(end 132.08 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 21f63a6d-e4c2-4b50-ae6c-116576971a91)
+	)
+	(text "This is the parent sheet for the Irishsat Cubestat \nflight Computer. Here, Heirarchical blocks will be \nmade for each individual IC or large subsystem.\nBy breaking it down in this way, collaboration is simple.\nTo contribute, follow the guide in the contributing section\nof our github:\nhttps://github.com/1112luke/CubeFlightComputer.\n(github repo location subject to change)\n\nOnce we build out this sheet with the relevant peripherals,\ncontributing is as easy as taking a crack at implementing \nany one of them"
+		(exclude_from_sim no)
+		(at 101.854 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6065e51a-7f9e-449d-b8db-e277e1275d6e")
+	)
+	(text "Parent Sheet"
+		(exclude_from_sim no)
+		(at 101.6 55.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "efbd04b8-1c5f-4f40-a401-0ce570509bdb")
+	)
+	(sheet
+		(at 125.73 95.25)
+		(size 25.4 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b2ccf39-aa9a-47f7-af8c-ca3b26ab14d5")
+		(property "Sheetname" "MCU"
+			(at 134.874 106.172 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 125.73 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "example_IO" input
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2081b4a8-ccf0-4fbd-a24c-f218a2ba15ba")
+		)
+		(instances
+			(project "CubeFlightComputer"
+				(path "/309c4956-07f9-47d3-bb6f-d1c2b2530971"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 81.28)
+		(size 22.86 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "324c33fe-a215-4e38-a24f-d601deff01c6")
+		(property "Sheetname" "IMU_1"
+			(at 206.756 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU_1.kicad_sch"
+			(at 198.12 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "testi2c1" input
+			(at 198.12 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "135f5f8b-15a3-46cf-abff-28743318d395")
+		)
+		(instances
+			(project "CubeFlightComputer"
+				(path "/309c4956-07f9-47d3-bb6f-d1c2b2530971"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

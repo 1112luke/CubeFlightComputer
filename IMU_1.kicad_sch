@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "02a88943-010d-4ba7-b5b3-9a402c009a10")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 70.612 89.662)
+		(end 146.812 107.442)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5c51fb5-f34b-4161-9e7a-929820805018)
+	)
+	(text "Here, implement the IMU and all of its necessary passive components. \nCreate Heirarchical labels for all I/O and global labels for Power. \n\nThe \"example_IO\" label has been created for the purpose of demostration."
+		(exclude_from_sim no)
+		(at 109.22 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7be23f6d-ea1b-4e73-90bb-c182394a7b1d")
+	)
+	(text "IMU_1"
+		(exclude_from_sim no)
+		(at 109.728 92.71 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "a010de2e-502f-49c8-af18-159391835292")
+	)
+	(hierarchical_label "testi2c1"
+		(shape input)
+		(at 152.4 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f34464fd-cfe8-45a7-82c8-81b1845baa06")
+	)
+)

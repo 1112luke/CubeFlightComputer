@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f92e95a7-0bf4-4479-a42d-5398c1efed5e")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 102.87 74.93)
+		(end 179.07 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e4b72e4-eceb-4e04-ab0d-1eedaa177aab)
+	)
+	(text "Here, implement the MCU and all of its necessary passive components. \nCreate Heirarchical labels for all I/O and global labels for Power. \n\nThe \"example_IO\" label has been created for the purpose of demostration."
+		(exclude_from_sim no)
+		(at 141.478 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7dc85358-9302-497c-8856-c098b5f0f6aa")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 141.986 77.978 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b64d9f91-9123-4baa-a48e-59b91d2eeeda")
+	)
+	(hierarchical_label "example_IO"
+		(shape input)
+		(at 182.88 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d89a8048-5871-4a28-9594-de79ed45a722")
+	)
+)
