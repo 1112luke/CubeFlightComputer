@@ -39,6 +39,30 @@
 		)
 		(uuid "b64d9f91-9123-4baa-a48e-59b91d2eeeda")
 	)
+	(hierarchical_label "example_IO_2"
+		(shape input)
+		(at 182.88 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17c479dd-428d-47b9-9419-f9e4f8c4df8b")
+	)
+	(hierarchical_label "example_IO_1"
+		(shape input)
+		(at 182.88 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83e70e5a-0347-4ccb-8fea-b493b38786fe")
+	)
 	(hierarchical_label "example_IO"
 		(shape input)
 		(at 182.88 81.28 0)

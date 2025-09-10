@@ -20,6 +20,36 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4af78c-0061-4e1a-add2-13e65f9453cf")
+	)
+	(wire
+		(pts
+			(xy 182.88 118.11) (xy 198.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc1a2d8-00f3-49de-b198-7837b0d531e2")
+	)
+	(wire
+		(pts
+			(xy 151.13 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe0fdfd-0ce8-4e83-a1db-87f1d7949fe5")
+	)
+	(wire
+		(pts
 			(xy 176.53 99.06) (xy 176.53 85.09)
 		)
 		(stroke
@@ -27,6 +57,26 @@
 			(type default)
 		)
 		(uuid "5553f597-51e7-46ac-a0df-fda3e510e0fe")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 121.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcce9fa-644a-4622-9b3d-4f02be801d65")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5426e99-4b68-47be-a9d4-27709eb08c05")
 	)
 	(wire
 		(pts
@@ -38,9 +88,29 @@
 		)
 		(uuid "c3e67a11-9357-4bec-a433-0959dcd3fa3e")
 	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04c916d-9199-40d6-8de8-86982b46a331")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 182.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e017f1c7-7c99-4d9d-b78b-b9c1cbeeeca7")
+	)
 	(rectangle
-		(start 71.12 52.832)
-		(end 132.08 83.82)
+		(start 17.526 16.764)
+		(end 78.486 47.752)
 		(stroke
 			(width 0)
 			(type default)
@@ -52,7 +122,7 @@
 	)
 	(text "This is the parent sheet for the Irishsat Cubestat \nflight Computer. Here, heirarchical blocks will be \nmade for each individual IC or large subsystem.\nBy breaking it down in this way, collaboration is simple.\nTo contribute, follow the guide in the contributing section\nof our github:\nhttps://github.com/1112luke/CubeFlightComputer.\n(github repo location subject to change)\n\nOnce we build out this sheet with the relevant peripherals,\ncontributing is as easy as taking a crack at implementing \nany one of them"
 		(exclude_from_sim no)
-		(at 101.854 70.358 0)
+		(at 48.26 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +132,7 @@
 	)
 	(text "Parent Sheet"
 		(exclude_from_sim no)
-		(at 101.6 55.88 0)
+		(at 48.006 19.812 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -110,6 +180,26 @@
 				(justify right)
 			)
 			(uuid "2081b4a8-ccf0-4fbd-a24c-f218a2ba15ba")
+		)
+		(pin "example_IO_1" input
+			(at 151.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4f15ec5-8dba-4f28-88fb-f6c61ba2f64b")
+		)
+		(pin "example_IO_2" input
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ddae2cb-147e-4829-8e8a-2f2a523a88f0")
 		)
 		(instances
 			(project "CubeFlightComputer"
@@ -162,6 +252,290 @@
 			(project "CubeFlightComputer"
 				(path "/309c4956-07f9-47d3-bb6f-d1c2b2530971"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 107.95)
+		(size 22.86 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7605bf79-396c-4154-86df-8930ab07666b")
+		(property "Sheetname" "GPS"
+			(at 207.264 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 198.12 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Example_IO" input
+			(at 198.12 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8945a16a-4742-430b-a2ce-9fb8d9c154e2")
+		)
+		(instances
+			(project "CubeFlightComputer"
+				(path "/309c4956-07f9-47d3-bb6f-d1c2b2530971"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 135.89)
+		(size 53.34 13.97)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f01ef9b5-b5de-426d-a606-5e7b2a0c78be")
+		(property "Sheetname" "Pin_Header"
+			(at 136.398 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pin_Header.kicad_sch"
+			(at 117.348 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ex6" input
+			(at 132.08 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6624958-c354-4143-ae05-1b39db447e76")
+		)
+		(pin "Ex9" input
+			(at 139.7 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0193740e-b606-42d0-aa28-c992dae9140a")
+		)
+		(pin "Ex7" input
+			(at 134.62 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1946ce00-6ed0-4dbc-abe4-df48c1d48bde")
+		)
+		(pin "Ex8" input
+			(at 137.16 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08e24464-5cbc-4161-891b-e02134a671da")
+		)
+		(pin "Ex1" input
+			(at 119.38 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "557bfb71-553e-4c00-97d3-0237d65fb17a")
+		)
+		(pin "Ex18" input
+			(at 162.56 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "199c6b55-a44c-462a-9036-a1e9642f6281")
+		)
+		(pin "Ex16" input
+			(at 157.48 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4169479-d734-401e-801c-b7d171e4655b")
+		)
+		(pin "Ex17" input
+			(at 160.02 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4c4af48-2e51-4aa5-9a72-adbba09e1b28")
+		)
+		(pin "Ex19" input
+			(at 165.1 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55ef132a-c7c9-491c-867a-2d7689f8ff66")
+		)
+		(pin "Ex20" input
+			(at 167.64 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a589ed6f-e67c-416d-9076-3ddf93e2dbd6")
+		)
+		(pin "Ex11" input
+			(at 144.78 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5976b990-1dcf-493d-8561-a5032fe174f1")
+		)
+		(pin "Ex13" input
+			(at 149.86 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32b625b5-262e-4639-8a44-c99860f75aae")
+		)
+		(pin "Ex12" input
+			(at 147.32 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "348b581c-5d60-4b29-bd99-6631589849d7")
+		)
+		(pin "Ex14" input
+			(at 152.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "deb76039-c816-4928-898a-4998a58558e0")
+		)
+		(pin "Ex10" input
+			(at 142.24 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb7e940d-e7c5-439f-8585-5db089e405e7")
+		)
+		(pin "Ex15" input
+			(at 154.94 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b456c48b-1773-4d94-84fd-3d89b9a5a605")
+		)
+		(pin "Ex4" input
+			(at 127 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ede95a0f-f149-4151-b675-0fe8038ec1c1")
+		)
+		(pin "Ex3" input
+			(at 124.46 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8eeeb57-9fff-44f5-ba61-b04406ed301b")
+		)
+		(pin "Ex2" input
+			(at 121.92 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a559f449-375c-479b-a203-1dac3875acf4")
+		)
+		(pin "Ex5" input
+			(at 129.54 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13f94e0c-7a52-4fa5-9462-c70d54bc92b7")
+		)
+		(instances
+			(project "CubeFlightComputer"
+				(path "/309c4956-07f9-47d3-bb6f-d1c2b2530971"
+					(page "4")
 				)
 			)
 		)

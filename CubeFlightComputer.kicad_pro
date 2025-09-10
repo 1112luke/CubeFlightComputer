@@ -394,6 +394,14 @@
     [
       "324c33fe-a215-4e38-a24f-d601deff01c6",
       "IMU_1"
+    ],
+    [
+      "f01ef9b5-b5de-426d-a606-5e7b2a0c78be",
+      "Pin_Header"
+    ],
+    [
+      "7605bf79-396c-4154-86df-8930ab07666b",
+      "GPS"
     ]
   ],
   "text_variables": {}
